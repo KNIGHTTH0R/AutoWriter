@@ -9,8 +9,8 @@ chrome_options = Options()
 chrome_options.add_argument("--headless")
 u_user = "usuario"
 u_pass = "senha"
-driver = webdriver.Chrome(executable_path=r'C:\Users\humberto.v.souza\Downloads\Install\chromedriver.exe')
-driver.get("https://ged360.oi.net.br/brnotas/index/index")
+driver = webdriver.Chrome(executable_path=r'C:\Users\(user)\Downloads\Install\chromedriver.exe')
+driver.get("site")
 
 #Login
 user = driver.find_element_by_id("usuario")
