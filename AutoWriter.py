@@ -37,5 +37,5 @@ time.sleep(1)
 workbook = xlwt.Workbook()
 
 xlrd.open_workbook()
-
+#http://www.devmedia.com.br/tkinter-interfaces-graficas-em-python/33956
 #driver.close()
